@@ -1,0 +1,423 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "onnx",
+    "packaging",
+    "protobuf",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/onnxconverter-common-1.13.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/NOTICE",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/onnxconverter_common-1.13.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/onnxconverter_common/__init__.py",
+    "lib/python3.12/site-packages/onnxconverter_common/_opt_const_folding.py",
+    "lib/python3.12/site-packages/onnxconverter_common/auto_mixed_precision.py",
+    "lib/python3.12/site-packages/onnxconverter_common/auto_mixed_precision_model_path.py",
+    "lib/python3.12/site-packages/onnxconverter_common/case_insensitive_dict.py",
+    "lib/python3.12/site-packages/onnxconverter_common/container.py",
+    "lib/python3.12/site-packages/onnxconverter_common/data_types.py",
+    "lib/python3.12/site-packages/onnxconverter_common/decast.py",
+    "lib/python3.12/site-packages/onnxconverter_common/float16.py",
+    "lib/python3.12/site-packages/onnxconverter_common/interface.py",
+    "lib/python3.12/site-packages/onnxconverter_common/metadata_props.py",
+    "lib/python3.12/site-packages/onnxconverter_common/onnx2py.py",
+    "lib/python3.12/site-packages/onnxconverter_common/onnx_ex.py",
+    "lib/python3.12/site-packages/onnxconverter_common/onnx_fx.py",
+    "lib/python3.12/site-packages/onnxconverter_common/onnx_ops.py",
+    "lib/python3.12/site-packages/onnxconverter_common/oopb.py",
+    "lib/python3.12/site-packages/onnxconverter_common/optimizer.py",
+    "lib/python3.12/site-packages/onnxconverter_common/perfstats.py",
+    "lib/python3.12/site-packages/onnxconverter_common/pytracing.py",
+    "lib/python3.12/site-packages/onnxconverter_common/registration.py",
+    "lib/python3.12/site-packages/onnxconverter_common/shape_calculator.py",
+    "lib/python3.12/site-packages/onnxconverter_common/topology.py",
+    "lib/python3.12/site-packages/onnxconverter_common/tree_ensemble.py",
+    "lib/python3.12/site-packages/onnxconverter_common/utils.py",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/_opt_const_folding.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/auto_mixed_precision.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/auto_mixed_precision_model_path.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/case_insensitive_dict.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/container.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/data_types.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/decast.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/float16.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/interface.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/metadata_props.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx2py.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_ex.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_fx.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/oopb.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/optimizer.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/perfstats.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/pytracing.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/registration.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/shape_calculator.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/topology.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/tree_ensemble.cpython-312.pyc",
+    "lib/python3.12/site-packages/onnxconverter_common/__pycache__/utils.cpython-312.pyc"
+  ],
+  "fn": "onnxconverter-common-1.13.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/onnxconverter-common-1.13.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a1749e40ac6377dc5b3cde8fe683f5c9",
+  "name": "onnxconverter-common",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/onnxconverter-common-1.13.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+        "sha256_in_prefix": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e60c2c3f1e4ec7c71a0f31a0dcd50a8f80c7ced8b2d9c76a52fc41307806601d",
+        "sha256_in_prefix": "e60c2c3f1e4ec7c71a0f31a0dcd50a8f80c7ced8b2d9c76a52fc41307806601d",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "6935b2898dad8cd40e9f19b00bcd5e94b83d53ec634e4687cf69baeebf9daac9",
+        "sha256_in_prefix": "6935b2898dad8cd40e9f19b00bcd5e94b83d53ec634e4687cf69baeebf9daac9",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5397064bb468ea71925d7ad2bc79706bec8f161a13da2bad55ec90d891fe5e50",
+        "sha256_in_prefix": "5397064bb468ea71925d7ad2bc79706bec8f161a13da2bad55ec90d891fe5e50",
+        "size_in_bytes": 4662
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ba77c0e0c39a1f489c232200e681fa136b27d87ab9ccab4b947b166a9646c1eb",
+        "sha256_in_prefix": "ba77c0e0c39a1f489c232200e681fa136b27d87ab9ccab4b947b166a9646c1eb",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3479fc6805e67a73485dc0740b01ae87aafe9f67e7ef950f75d3e87ef6dabbc8",
+        "sha256_in_prefix": "3479fc6805e67a73485dc0740b01ae87aafe9f67e7ef950f75d3e87ef6dabbc8",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/onnxconverter_common-1.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "698e18450ac3ef34db74711e17be5671eb127de8264c9513cf105da52375d8fa",
+        "sha256_in_prefix": "698e18450ac3ef34db74711e17be5671eb127de8264c9513cf105da52375d8fa",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19005ddcef8b4cc185b3983bcab3300961f9c27557af8b25ba02a219c2f8c811",
+        "sha256_in_prefix": "19005ddcef8b4cc185b3983bcab3300961f9c27557af8b25ba02a219c2f8c811",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/_opt_const_folding.py",
+        "path_type": "hardlink",
+        "sha256": "09d6ea0b7dc0a45a8710cfd31b9b8b19b2d517c4abc0e9c28c020ae21cb687b5",
+        "sha256_in_prefix": "09d6ea0b7dc0a45a8710cfd31b9b8b19b2d517c4abc0e9c28c020ae21cb687b5",
+        "size_in_bytes": 10792
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/auto_mixed_precision.py",
+        "path_type": "hardlink",
+        "sha256": "fea983d7339e93212eb2bd784505c149e02b4e2e287cac3ff5c202ddd6ce54cf",
+        "sha256_in_prefix": "fea983d7339e93212eb2bd784505c149e02b4e2e287cac3ff5c202ddd6ce54cf",
+        "size_in_bytes": 7770
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/auto_mixed_precision_model_path.py",
+        "path_type": "hardlink",
+        "sha256": "d2382e9e1be8257f59de83a99908ae41fb9c762ff9ee0176f31679330a21be81",
+        "sha256_in_prefix": "d2382e9e1be8257f59de83a99908ae41fb9c762ff9ee0176f31679330a21be81",
+        "size_in_bytes": 11082
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/case_insensitive_dict.py",
+        "path_type": "hardlink",
+        "sha256": "7175ab7763e3f288a2554ab69166280c1ab49931bb48a8f4fb058bb8b1af1d23",
+        "sha256_in_prefix": "7175ab7763e3f288a2554ab69166280c1ab49931bb48a8f4fb058bb8b1af1d23",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/container.py",
+        "path_type": "hardlink",
+        "sha256": "df4a8043a00909b06224296835b197e081c1a11d6f4aa6c3fd1f28fa54641209",
+        "sha256_in_prefix": "df4a8043a00909b06224296835b197e081c1a11d6f4aa6c3fd1f28fa54641209",
+        "size_in_bytes": 7365
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/data_types.py",
+        "path_type": "hardlink",
+        "sha256": "2ea8687ff2ad6f3c2a7bfb412c86fe37c27677016d0106a179e76ae8281bfc6c",
+        "sha256_in_prefix": "2ea8687ff2ad6f3c2a7bfb412c86fe37c27677016d0106a179e76ae8281bfc6c",
+        "size_in_bytes": 9134
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/decast.py",
+        "path_type": "hardlink",
+        "sha256": "8f1c3a1f8a5465b15baa2f8ea30776f5cd82d09bb925ea4200e81d0075107b40",
+        "sha256_in_prefix": "8f1c3a1f8a5465b15baa2f8ea30776f5cd82d09bb925ea4200e81d0075107b40",
+        "size_in_bytes": 1856
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/float16.py",
+        "path_type": "hardlink",
+        "sha256": "ec99943d6384644a33bed8a41e13bb172d7f363c8a1f6269b6724f27b34fc704",
+        "sha256_in_prefix": "ec99943d6384644a33bed8a41e13bb172d7f363c8a1f6269b6724f27b34fc704",
+        "size_in_bytes": 16309
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/interface.py",
+        "path_type": "hardlink",
+        "sha256": "f1ec558ad99c24ebf352c065d723cfa297e5bff4c6f918d07d090f581e280d0f",
+        "sha256_in_prefix": "f1ec558ad99c24ebf352c065d723cfa297e5bff4c6f918d07d090f581e280d0f",
+        "size_in_bytes": 2711
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/metadata_props.py",
+        "path_type": "hardlink",
+        "sha256": "38bcbb2d263d6c7e2a0bd3ac1acab402aea259be7f789d52688872b44fb5764e",
+        "sha256_in_prefix": "38bcbb2d263d6c7e2a0bd3ac1acab402aea259be7f789d52688872b44fb5764e",
+        "size_in_bytes": 4666
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/onnx2py.py",
+        "path_type": "hardlink",
+        "sha256": "8118f3b684c2a3eb77222f5baed14e7931f875451751025f4ce71b02fe4ab3c1",
+        "sha256_in_prefix": "8118f3b684c2a3eb77222f5baed14e7931f875451751025f4ce71b02fe4ab3c1",
+        "size_in_bytes": 11475
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/onnx_ex.py",
+        "path_type": "hardlink",
+        "sha256": "1f30a6b531bdfe0f3f83168eeb0f70a779ade347adf8a855d34f68790bf5f319",
+        "sha256_in_prefix": "1f30a6b531bdfe0f3f83168eeb0f70a779ade347adf8a855d34f68790bf5f319",
+        "size_in_bytes": 3691
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/onnx_fx.py",
+        "path_type": "hardlink",
+        "sha256": "e69c29e43421bc2938b06da3a6848d98113ec42db4d3361edd739b04b34e1eac",
+        "sha256_in_prefix": "e69c29e43421bc2938b06da3a6848d98113ec42db4d3361edd739b04b34e1eac",
+        "size_in_bytes": 23080
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/onnx_ops.py",
+        "path_type": "hardlink",
+        "sha256": "828f437d5f1cc9c572221360538b1a3155aec11b5420041fc9de41dfc7166f1c",
+        "sha256_in_prefix": "828f437d5f1cc9c572221360538b1a3155aec11b5420041fc9de41dfc7166f1c",
+        "size_in_bytes": 53628
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/oopb.py",
+        "path_type": "hardlink",
+        "sha256": "aa332a77e3a2e6bf383f433dea1695538891830b7de5de2ea4219599cd1e6109",
+        "sha256_in_prefix": "aa332a77e3a2e6bf383f433dea1695538891830b7de5de2ea4219599cd1e6109",
+        "size_in_bytes": 19590
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/optimizer.py",
+        "path_type": "hardlink",
+        "sha256": "4b4ecbbdeb5caa34919575625c12862fdb71f5cb1a7ee7bbd9906de20b3c3bd7",
+        "sha256_in_prefix": "4b4ecbbdeb5caa34919575625c12862fdb71f5cb1a7ee7bbd9906de20b3c3bd7",
+        "size_in_bytes": 81246
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/perfstats.py",
+        "path_type": "hardlink",
+        "sha256": "c6bf5735511cbfebc6de7e8550f946c034514336fd36f2d86591cb54888f2d79",
+        "sha256_in_prefix": "c6bf5735511cbfebc6de7e8550f946c034514336fd36f2d86591cb54888f2d79",
+        "size_in_bytes": 11576
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/pytracing.py",
+        "path_type": "hardlink",
+        "sha256": "2e34d59f366e14d5ff9a2503115658122034007ca1c9833fc65100a6050776ba",
+        "sha256_in_prefix": "2e34d59f366e14d5ff9a2503115658122034007ca1c9833fc65100a6050776ba",
+        "size_in_bytes": 3089
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/registration.py",
+        "path_type": "hardlink",
+        "sha256": "a2a5116bf1cafbf70aaab5e92f2f03bd793addb71a8399ba650687ca9c1c8746",
+        "sha256_in_prefix": "a2a5116bf1cafbf70aaab5e92f2f03bd793addb71a8399ba650687ca9c1c8746",
+        "size_in_bytes": 3713
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/shape_calculator.py",
+        "path_type": "hardlink",
+        "sha256": "68ea799bee6b34b32c417bddfbbd78c6e4409ede2bd366191e0d954f4b2d4699",
+        "sha256_in_prefix": "68ea799bee6b34b32c417bddfbbd78c6e4409ede2bd366191e0d954f4b2d4699",
+        "size_in_bytes": 3677
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/topology.py",
+        "path_type": "hardlink",
+        "sha256": "c3f888b6c98aebb06160d68aa9345ae3f825388408ec613eddb8fa1a3f565dbf",
+        "sha256_in_prefix": "c3f888b6c98aebb06160d68aa9345ae3f825388408ec613eddb8fa1a3f565dbf",
+        "size_in_bytes": 39783
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/tree_ensemble.py",
+        "path_type": "hardlink",
+        "sha256": "20f6837914d39227197eab7406b396f048137ab276a3e411efbd978489138bae",
+        "sha256_in_prefix": "20f6837914d39227197eab7406b396f048137ab276a3e411efbd978489138bae",
+        "size_in_bytes": 4406
+      },
+      {
+        "_path": "site-packages/onnxconverter_common/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a424648ca1b3990c43cece3c78804d207ebe404a5abdc7852fbf7f1d2177131a",
+        "sha256_in_prefix": "a424648ca1b3990c43cece3c78804d207ebe404a5abdc7852fbf7f1d2177131a",
+        "size_in_bytes": 10322
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/_opt_const_folding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/auto_mixed_precision.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/auto_mixed_precision_model_path.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/case_insensitive_dict.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/container.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/data_types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/decast.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/float16.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/interface.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/metadata_props.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx2py.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_ex.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_fx.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/onnx_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/oopb.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/optimizer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/perfstats.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/pytracing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/registration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/shape_calculator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/topology.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/tree_ensemble.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/onnxconverter_common/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8320927bbbae5f9dd4ba2abb2c046f9629111ac49ef539f537876a57af54d2ed",
+  "size": 68459,
+  "subdir": "noarch",
+  "timestamp": 1667648846000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/onnxconverter-common-1.13.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.13.0"
+}

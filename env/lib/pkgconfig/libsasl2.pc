@@ -1,0 +1,12 @@
+prefix=/Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Cyrus SASL
+Description: Cyrus SASL implementation
+URL: http://www.cyrussasl.org/
+Version: 2.1.28
+Cflags: -I${includedir}
+Libs: -L${libdir} -lsasl2
+Libs.private:  -ldl -lresolv -lresolv 

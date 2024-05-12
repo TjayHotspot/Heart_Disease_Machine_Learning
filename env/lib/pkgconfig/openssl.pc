@@ -1,0 +1,7 @@
+libdir=/Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env/lib
+includedir=/Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.3.0
+Requires: libssl libcrypto

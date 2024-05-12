@@ -1,0 +1,2285 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.15",
+    "onnx >=1.2.1",
+    "onnxconverter-common >=1.7.0",
+    "packaging",
+    "protobuf",
+    "python >=3.6",
+    "scikit-learn >=0.19",
+    "scipy >=1.0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/skl2onnx-1.16.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/NOTICE",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/skl2onnx-1.16.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/skl2onnx/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/__main__.py",
+    "lib/python3.12/site-packages/skl2onnx/_parse.py",
+    "lib/python3.12/site-packages/skl2onnx/_supported_operators.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/_cache/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/automation.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/complex_functions.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/custom_ops.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/graph_state.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/onnx_operator.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/onnx_operator_mixin.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/onnx_ops.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/onnx_subgraph_operator_mixin.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/sklearn_ops.py",
+    "lib/python3.12/site-packages/skl2onnx/algebra/type_helper.py",
+    "lib/python3.12/site-packages/skl2onnx/common/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/common/_apply_operation.py",
+    "lib/python3.12/site-packages/skl2onnx/common/_container.py",
+    "lib/python3.12/site-packages/skl2onnx/common/_onnx_optimisation_common.py",
+    "lib/python3.12/site-packages/skl2onnx/common/_registration.py",
+    "lib/python3.12/site-packages/skl2onnx/common/_topology.py",
+    "lib/python3.12/site-packages/skl2onnx/common/data_types.py",
+    "lib/python3.12/site-packages/skl2onnx/common/exceptions.py",
+    "lib/python3.12/site-packages/skl2onnx/common/onnx_optimisation_identity.py",
+    "lib/python3.12/site-packages/skl2onnx/common/shape_calculator.py",
+    "lib/python3.12/site-packages/skl2onnx/common/tree_ensemble.py",
+    "lib/python3.12/site-packages/skl2onnx/common/utils.py",
+    "lib/python3.12/site-packages/skl2onnx/common/utils_checking.py",
+    "lib/python3.12/site-packages/skl2onnx/common/utils_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/common/utils_sklearn.py",
+    "lib/python3.12/site-packages/skl2onnx/convert.py",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/helpers/integration.py",
+    "lib/python3.12/site-packages/skl2onnx/helpers/investigate.py",
+    "lib/python3.12/site-packages/skl2onnx/helpers/onnx_helper.py",
+    "lib/python3.12/site-packages/skl2onnx/helpers/onnx_rare_helper.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/_gp_kernels.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/ada_boost.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/array_feature_extractor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/bagging.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/binariser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/calibrated_classifier_cv.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/cast_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/class_labels.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/common.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/concat_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/cross_decomposition.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/decision_tree.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/decomposition.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/dict_vectoriser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/feature_hasher.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/feature_selection.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/flatten_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/function_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/gamma_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/gaussian_mixture.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/gaussian_process.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/gradient_boosting.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/grid_search_cv.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/id_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/imputer_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/isolation_forest.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/k_bins_discretiser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/k_means.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/kernel_pca.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/label_binariser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/label_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/linear_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/linear_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/local_outlier_factor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/multilayer_perceptron.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/multioutput.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/multiply_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/naive_bayes.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/nearest_neighbours.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/normaliser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/one_hot_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/one_vs_one_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/one_vs_rest_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/ordinal_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/ovr_decision_function.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/pipelines.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/polynomial_features.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/power_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/quadratic_discriminant_analysis.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/random_forest.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/random_projection.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/random_trees_embedding.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/ransac_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/replace_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/scaler_op.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/sequence.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/sgd_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/sgd_oneclass_svm.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/stacking.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/support_vector_machines.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/text_vectoriser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/tfidf_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/tfidf_vectoriser.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/voting_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/voting_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/zip_map.py",
+    "lib/python3.12/site-packages/skl2onnx/proto/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/array_feature_extractor.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/cast_op.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/class_labels.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/concat.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/cross_decomposition.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/dict_vectorizer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/ensemble_shapes.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/feature_hasher.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/flatten.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/function_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/gaussian_process.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/grid_search_cv.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/identity.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/imputer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/isolation_forest.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/k_bins_discretiser.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/k_means.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/kernel_pca.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/label_binariser.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/label_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/linear_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/linear_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/local_outlier_factor.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/mixture.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/multioutput.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/multiply.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/nearest_neighbours.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/one_hot_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/one_vs_one_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/one_vs_rest_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/ordinal_encoder.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/ovr_decision_function.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/pipelines.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/polynomial_features.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/power_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/quadratic_discriminant_analysis.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/random_projection.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/random_trees_embedding.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/replace_op.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/scaler.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/sequence.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/sgd_oneclass_svm.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/support_vector_machines.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/svd.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/text_vectorizer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/tfidf_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/voting_classifier.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/voting_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/zip_map.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/cast_regressor.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/cast_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/register.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/replace_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/sklearn_text.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/sklearn_text_onnx.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/woe_transformer.py",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/woe_transformer_onnx.py",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/__init__.py",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/benchmark.py",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/imagenet_classes.py",
+    "lib/python3.12/site-packages/skl2onnx/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/__pycache__/_parse.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/__pycache__/_supported_operators.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/_cache/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/automation.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/complex_functions.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/custom_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/graph_state.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_operator.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_operator_mixin.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_subgraph_operator_mixin.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/sklearn_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/type_helper.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_apply_operation.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_container.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_onnx_optimisation_common.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_registration.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_topology.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/data_types.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/onnx_optimisation_identity.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/shape_calculator.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/tree_ensemble.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_checking.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_sklearn.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/__pycache__/convert.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/integration.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/investigate.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/onnx_helper.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/onnx_rare_helper.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/_gp_kernels.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ada_boost.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/array_feature_extractor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/bagging.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/binariser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/calibrated_classifier_cv.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/cast_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/class_labels.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/common.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/concat_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/cross_decomposition.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/decision_tree.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/decomposition.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/dict_vectoriser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/feature_hasher.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/feature_selection.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/flatten_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/function_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gamma_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gaussian_mixture.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gaussian_process.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gradient_boosting.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/grid_search_cv.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/id_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/imputer_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/isolation_forest.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/k_bins_discretiser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/k_means.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/kernel_pca.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/label_binariser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/label_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/linear_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/linear_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/local_outlier_factor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multilayer_perceptron.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multioutput.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multiply_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/naive_bayes.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/nearest_neighbours.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/normaliser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_hot_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_vs_one_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_vs_rest_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ordinal_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ovr_decision_function.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/pipelines.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/polynomial_features.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/power_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/quadratic_discriminant_analysis.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_forest.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_projection.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_trees_embedding.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ransac_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/replace_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/scaler_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sequence.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sgd_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sgd_oneclass_svm.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/stacking.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/support_vector_machines.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/text_vectoriser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/tfidf_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/tfidf_vectoriser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/voting_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/voting_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/zip_map.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/proto/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/array_feature_extractor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/cast_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/class_labels.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/concat.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/cross_decomposition.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/dict_vectorizer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ensemble_shapes.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/feature_hasher.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/flatten.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/function_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/gaussian_process.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/grid_search_cv.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/identity.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/imputer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/isolation_forest.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/k_bins_discretiser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/k_means.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/kernel_pca.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/label_binariser.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/label_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/linear_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/linear_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/local_outlier_factor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/mixture.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/multioutput.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/multiply.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/nearest_neighbours.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_hot_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_vs_one_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_vs_rest_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ordinal_encoder.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ovr_decision_function.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/pipelines.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/polynomial_features.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/power_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/quadratic_discriminant_analysis.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/random_projection.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/random_trees_embedding.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/replace_op.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/scaler.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/sequence.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/sgd_oneclass_svm.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/support_vector_machines.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/svd.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/text_vectorizer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/tfidf_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/voting_classifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/voting_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/zip_map.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/cast_regressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/cast_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/register.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/replace_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/sklearn_text.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/sklearn_text_onnx.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/woe_transformer.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/woe_transformer_onnx.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/benchmark.cpython-312.pyc",
+    "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/imagenet_classes.cpython-312.pyc"
+  ],
+  "fn": "skl2onnx-1.16.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/skl2onnx-1.16.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "52a160919ba780e1971e6db6a9f91e81",
+  "name": "skl2onnx",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/skl2onnx-1.16.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "sha256_in_prefix": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "size_in_bytes": 11560
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "230a1c3bf47cc0519d530da7bc938a15872e50ce121176e58f1c59a43c127e67",
+        "sha256_in_prefix": "230a1c3bf47cc0519d530da7bc938a15872e50ce121176e58f1c59a43c127e67",
+        "size_in_bytes": 3071
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "aca54cb887c1f2f15fe5312595b2f59a39790c59a4ef4b60d0d7b31c6bcdb238",
+        "sha256_in_prefix": "aca54cb887c1f2f15fe5312595b2f59a39790c59a4ef4b60d0d7b31c6bcdb238",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f12610270511726183640a9b39acd9cf065c38a84dbbe25bc213d5bdd37cacb7",
+        "sha256_in_prefix": "f12610270511726183640a9b39acd9cf065c38a84dbbe25bc213d5bdd37cacb7",
+        "size_in_bytes": 29091
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "sha256_in_prefix": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "56f921a9185ef20a85e51a6232713b49d5ab9215aa73b8b64660ed83fd796971",
+        "sha256_in_prefix": "56f921a9185ef20a85e51a6232713b49d5ab9215aa73b8b64660ed83fd796971",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/skl2onnx-1.16.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ec30cfec3f03f80429258faab8132838f910482f8b52ebd2df090cba5aed7bc3",
+        "sha256_in_prefix": "ec30cfec3f03f80429258faab8132838f910482f8b52ebd2df090cba5aed7bc3",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/skl2onnx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c2bb6a0d71a8f8fcb393d4d57081bbd036b2ca2f2d1a0c59f4e82e67ebf3832d",
+        "sha256_in_prefix": "c2bb6a0d71a8f8fcb393d4d57081bbd036b2ca2f2d1a0c59f4e82e67ebf3832d",
+        "size_in_bytes": 1665
+      },
+      {
+        "_path": "site-packages/skl2onnx/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "c568ca203c14986edc33bafb8f42eec4687b63fc13e89d0c21ba268483f09f60",
+        "sha256_in_prefix": "c568ca203c14986edc33bafb8f42eec4687b63fc13e89d0c21ba268483f09f60",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/skl2onnx/_parse.py",
+        "path_type": "hardlink",
+        "sha256": "6c71b851bbdb929e681b6f651e14d431b1e2d98c604428fd4e0c020c018547c5",
+        "sha256_in_prefix": "6c71b851bbdb929e681b6f651e14d431b1e2d98c604428fd4e0c020c018547c5",
+        "size_in_bytes": 36900
+      },
+      {
+        "_path": "site-packages/skl2onnx/_supported_operators.py",
+        "path_type": "hardlink",
+        "sha256": "82e7f890ec382ac2852b1c08c3a0679deb5a6e5cbf01b1f45ffe70f76430ad82",
+        "sha256_in_prefix": "82e7f890ec382ac2852b1c08c3a0679deb5a6e5cbf01b1f45ffe70f76430ad82",
+        "size_in_bytes": 18776
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01c711421a8c2ddba2a0d326c445802b56cf7f06f4d81eef1e54277304f9750f",
+        "sha256_in_prefix": "01c711421a8c2ddba2a0d326c445802b56cf7f06f4d81eef1e54277304f9750f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/_cache/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63dfdd9c2004003c2d160f16388ba06990bb5055d64cdc4988db89f8e501afc4",
+        "sha256_in_prefix": "63dfdd9c2004003c2d160f16388ba06990bb5055d64cdc4988db89f8e501afc4",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/automation.py",
+        "path_type": "hardlink",
+        "sha256": "04f6e1c0659345c3c04ad06ce26254245ffb5ffc3ff6076583630d73ef328959",
+        "sha256_in_prefix": "04f6e1c0659345c3c04ad06ce26254245ffb5ffc3ff6076583630d73ef328959",
+        "size_in_bytes": 10182
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/complex_functions.py",
+        "path_type": "hardlink",
+        "sha256": "bcc865172ad5eba445078d67c04bab6530d1d9e60ac453f16237f288b6c3bce8",
+        "sha256_in_prefix": "bcc865172ad5eba445078d67c04bab6530d1d9e60ac453f16237f288b6c3bce8",
+        "size_in_bytes": 9257
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/custom_ops.py",
+        "path_type": "hardlink",
+        "sha256": "25e7ba06da1f2008c2b47fbdb8d7ba8eb3b61590f89ca30c4c1c5195bb5a00ad",
+        "sha256_in_prefix": "25e7ba06da1f2008c2b47fbdb8d7ba8eb3b61590f89ca30c4c1c5195bb5a00ad",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/graph_state.py",
+        "path_type": "hardlink",
+        "sha256": "f9cefd7217df7661503f3291dde2c85ec1be9c88bd0c540fb9f696824e875956",
+        "sha256_in_prefix": "f9cefd7217df7661503f3291dde2c85ec1be9c88bd0c540fb9f696824e875956",
+        "size_in_bytes": 30139
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/onnx_operator.py",
+        "path_type": "hardlink",
+        "sha256": "81e8295d0eb9c520e9f42f93248af7b01ec7a65a1ba81d5bd2ce625118694deb",
+        "sha256_in_prefix": "81e8295d0eb9c520e9f42f93248af7b01ec7a65a1ba81d5bd2ce625118694deb",
+        "size_in_bytes": 51688
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/onnx_operator_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "292b368d0e3e566971c32b44311a60d67d414f26844a01b152a6d4993a1c5c78",
+        "sha256_in_prefix": "292b368d0e3e566971c32b44311a60d67d414f26844a01b152a6d4993a1c5c78",
+        "size_in_bytes": 8969
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/onnx_ops.py",
+        "path_type": "hardlink",
+        "sha256": "84f9f13f76eccaae36144f57c359dc7d6402c0061faa940bae7eb1af4df124a0",
+        "sha256_in_prefix": "84f9f13f76eccaae36144f57c359dc7d6402c0061faa940bae7eb1af4df124a0",
+        "size_in_bytes": 20172
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/onnx_subgraph_operator_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "0f7c87801cfafd709fef083b6c26611d7a44d79f30dfea442aca2a869a6995f8",
+        "sha256_in_prefix": "0f7c87801cfafd709fef083b6c26611d7a44d79f30dfea442aca2a869a6995f8",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/sklearn_ops.py",
+        "path_type": "hardlink",
+        "sha256": "230535187f571c32323eb028982c72b4361431644e989564131bb2f9394ab12e",
+        "sha256_in_prefix": "230535187f571c32323eb028982c72b4361431644e989564131bb2f9394ab12e",
+        "size_in_bytes": 4385
+      },
+      {
+        "_path": "site-packages/skl2onnx/algebra/type_helper.py",
+        "path_type": "hardlink",
+        "sha256": "4a8716ad9f542505e05fde8a7f096aa5682ef3f01d4392669a9bfd17c91b2fa8",
+        "sha256_in_prefix": "4a8716ad9f542505e05fde8a7f096aa5682ef3f01d4392669a9bfd17c91b2fa8",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "421b47a3366565cbf2dbfffb3472710455c542fdbb9e86067f54e0ad6330b9be",
+        "sha256_in_prefix": "421b47a3366565cbf2dbfffb3472710455c542fdbb9e86067f54e0ad6330b9be",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/_apply_operation.py",
+        "path_type": "hardlink",
+        "sha256": "8b5ea331c50a53183e8e52a1ac86ef08a81f2271cc10d998e27c317b9f803ce8",
+        "sha256_in_prefix": "8b5ea331c50a53183e8e52a1ac86ef08a81f2271cc10d998e27c317b9f803ce8",
+        "size_in_bytes": 8493
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/_container.py",
+        "path_type": "hardlink",
+        "sha256": "b4c69ec97b9abe2cd27daf186e175d3aa68a06672fc46323609e9a663edbd4c9",
+        "sha256_in_prefix": "b4c69ec97b9abe2cd27daf186e175d3aa68a06672fc46323609e9a663edbd4c9",
+        "size_in_bytes": 35622
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/_onnx_optimisation_common.py",
+        "path_type": "hardlink",
+        "sha256": "f1b155523ad29a0495c858710caa9dcb2c26f5073f7eff6b751d5c94dc3d0078",
+        "sha256_in_prefix": "f1b155523ad29a0495c858710caa9dcb2c26f5073f7eff6b751d5c94dc3d0078",
+        "size_in_bytes": 8173
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/_registration.py",
+        "path_type": "hardlink",
+        "sha256": "947b1952d37536825acae333c126df708eb02982cd9d9ccd19d27c8c5d4128db",
+        "sha256_in_prefix": "947b1952d37536825acae333c126df708eb02982cd9d9ccd19d27c8c5d4128db",
+        "size_in_bytes": 4480
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/_topology.py",
+        "path_type": "hardlink",
+        "sha256": "5307a7b2b8ef3856665eaf91411969e4d496713135d8f88d21314adaf3e6bc08",
+        "sha256_in_prefix": "5307a7b2b8ef3856665eaf91411969e4d496713135d8f88d21314adaf3e6bc08",
+        "size_in_bytes": 64838
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/data_types.py",
+        "path_type": "hardlink",
+        "sha256": "5d08464b9102b30c888dcec55e86baa399a57f201af72bc0a9ce06b2181f84f0",
+        "sha256_in_prefix": "5d08464b9102b30c888dcec55e86baa399a57f201af72bc0a9ce06b2181f84f0",
+        "size_in_bytes": 14868
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "dbcda49bcca54ff5ae07fb874896004175e1198646578720c3eb7e7327fdd3bd",
+        "sha256_in_prefix": "dbcda49bcca54ff5ae07fb874896004175e1198646578720c3eb7e7327fdd3bd",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/onnx_optimisation_identity.py",
+        "path_type": "hardlink",
+        "sha256": "278ba140a146cc5a4652c8df9ec30dd94fe4bcad7b96af160caa18ccac1884cd",
+        "sha256_in_prefix": "278ba140a146cc5a4652c8df9ec30dd94fe4bcad7b96af160caa18ccac1884cd",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/shape_calculator.py",
+        "path_type": "hardlink",
+        "sha256": "12a9425e8f2609f5a30e756b8a05412f1cee01aa7e77fb021d8064f7c515d817",
+        "sha256_in_prefix": "12a9425e8f2609f5a30e756b8a05412f1cee01aa7e77fb021d8064f7c515d817",
+        "size_in_bytes": 5885
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/tree_ensemble.py",
+        "path_type": "hardlink",
+        "sha256": "c0eb0d1dc87ea423ece2a57adaa145e9664306d23167690b4e58fa9b37cbbda2",
+        "sha256_in_prefix": "c0eb0d1dc87ea423ece2a57adaa145e9664306d23167690b4e58fa9b37cbbda2",
+        "size_in_bytes": 8416
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3d2a79e66c521a5e8b6f95dabb4ac2bf5d9cc29be1bd75345a6de131da522fd0",
+        "sha256_in_prefix": "3d2a79e66c521a5e8b6f95dabb4ac2bf5d9cc29be1bd75345a6de131da522fd0",
+        "size_in_bytes": 6956
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/utils_checking.py",
+        "path_type": "hardlink",
+        "sha256": "5af85144cb79abac52480d9421c433506f720bcd0ba7f984eca1c018591d4bf3",
+        "sha256_in_prefix": "5af85144cb79abac52480d9421c433506f720bcd0ba7f984eca1c018591d4bf3",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/utils_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "3022651de99d4c904810866443796cae5b6de1d19d3ec6e17022ccc26daa3069",
+        "sha256_in_prefix": "3022651de99d4c904810866443796cae5b6de1d19d3ec6e17022ccc26daa3069",
+        "size_in_bytes": 3885
+      },
+      {
+        "_path": "site-packages/skl2onnx/common/utils_sklearn.py",
+        "path_type": "hardlink",
+        "sha256": "ec9710a33587c75f1ed4634220b7cc1615bd3885aff25cfb299fb7d3cabbc074",
+        "sha256_in_prefix": "ec9710a33587c75f1ed4634220b7cc1615bd3885aff25cfb299fb7d3cabbc074",
+        "size_in_bytes": 5454
+      },
+      {
+        "_path": "site-packages/skl2onnx/convert.py",
+        "path_type": "hardlink",
+        "sha256": "07cb4a0f5752a59c5f010a1965857c64d188f89b56b92bd47f64108f6c1c9341",
+        "sha256_in_prefix": "07cb4a0f5752a59c5f010a1965857c64d188f89b56b92bd47f64108f6c1c9341",
+        "size_in_bytes": 13166
+      },
+      {
+        "_path": "site-packages/skl2onnx/helpers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "174e46ba7ddbf9530baa867ff2c2c7c54236de5962ab944394b12ef5f2d92a99",
+        "sha256_in_prefix": "174e46ba7ddbf9530baa867ff2c2c7c54236de5962ab944394b12ef5f2d92a99",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/skl2onnx/helpers/integration.py",
+        "path_type": "hardlink",
+        "sha256": "0aa6db70c334767759bca681b71354077074c6dab2696306ae0c7f4d53eb54b3",
+        "sha256_in_prefix": "0aa6db70c334767759bca681b71354077074c6dab2696306ae0c7f4d53eb54b3",
+        "size_in_bytes": 4299
+      },
+      {
+        "_path": "site-packages/skl2onnx/helpers/investigate.py",
+        "path_type": "hardlink",
+        "sha256": "b63629f3d79f548212434dbd060004de28215479cc09db51b895727f2ec0c3d4",
+        "sha256_in_prefix": "b63629f3d79f548212434dbd060004de28215479cc09db51b895727f2ec0c3d4",
+        "size_in_bytes": 13106
+      },
+      {
+        "_path": "site-packages/skl2onnx/helpers/onnx_helper.py",
+        "path_type": "hardlink",
+        "sha256": "7963321413f5b2df34cd9e7e5c79150d1d84af58141ab4189ba8ac9a63bbb9b9",
+        "sha256_in_prefix": "7963321413f5b2df34cd9e7e5c79150d1d84af58141ab4189ba8ac9a63bbb9b9",
+        "size_in_bytes": 16496
+      },
+      {
+        "_path": "site-packages/skl2onnx/helpers/onnx_rare_helper.py",
+        "path_type": "hardlink",
+        "sha256": "b9aeba1d1a573eefecfc94890a1e693398ca97d750da08ab9765f9c534ebc4b8",
+        "sha256_in_prefix": "b9aeba1d1a573eefecfc94890a1e693398ca97d750da08ab9765f9c534ebc4b8",
+        "size_in_bytes": 2972
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6ba689d7111a17764860c476f57100d890ed9a327896eeb28f81661f00eb779b",
+        "sha256_in_prefix": "6ba689d7111a17764860c476f57100d890ed9a327896eeb28f81661f00eb779b",
+        "size_in_bytes": 3507
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/_gp_kernels.py",
+        "path_type": "hardlink",
+        "sha256": "8ac34461ef82af41db3ddaa1dab1cf1e78ad4aaded666dca221430bf25804b17",
+        "sha256_in_prefix": "8ac34461ef82af41db3ddaa1dab1cf1e78ad4aaded666dca221430bf25804b17",
+        "size_in_bytes": 17878
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/ada_boost.py",
+        "path_type": "hardlink",
+        "sha256": "638805ebad5bb1530838bff89122ddf78aa8fbdb2986df8e1f0eb7a1a5730384",
+        "sha256_in_prefix": "638805ebad5bb1530838bff89122ddf78aa8fbdb2986df8e1f0eb7a1a5730384",
+        "size_in_bytes": 31463
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/array_feature_extractor.py",
+        "path_type": "hardlink",
+        "sha256": "1f4a7e35e3b226d014cc56d6f944d73ebc730201df640c2239e51939b2a4dde2",
+        "sha256_in_prefix": "1f4a7e35e3b226d014cc56d6f944d73ebc730201df640c2239e51939b2a4dde2",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/bagging.py",
+        "path_type": "hardlink",
+        "sha256": "1b68e9b63f297904777801ee90cfc3f6ad48ca96a2824834d1ba049439a4a886",
+        "sha256_in_prefix": "1b68e9b63f297904777801ee90cfc3f6ad48ca96a2824834d1ba049439a4a886",
+        "size_in_bytes": 12605
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/binariser.py",
+        "path_type": "hardlink",
+        "sha256": "b53ae27d02512dad6593bee171d50c8c6da6304031ec8319891b08a857fd81f6",
+        "sha256_in_prefix": "b53ae27d02512dad6593bee171d50c8c6da6304031ec8319891b08a857fd81f6",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/calibrated_classifier_cv.py",
+        "path_type": "hardlink",
+        "sha256": "ef34453a1cd0a0cbab00bcd1a18625ee77e4754c75cd749c33ba5b62617a5d70",
+        "sha256_in_prefix": "ef34453a1cd0a0cbab00bcd1a18625ee77e4754c75cd749c33ba5b62617a5d70",
+        "size_in_bytes": 24256
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/cast_op.py",
+        "path_type": "hardlink",
+        "sha256": "8a8028aa21891c531a290599973a646019ad71cf0be03bc292466fb9e4d9521c",
+        "sha256_in_prefix": "8a8028aa21891c531a290599973a646019ad71cf0be03bc292466fb9e4d9521c",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/class_labels.py",
+        "path_type": "hardlink",
+        "sha256": "8a87e776a0a1532e526fc5791bdf9dcd123cc62159d72f4dddc62155b34fc34b",
+        "sha256_in_prefix": "8a87e776a0a1532e526fc5791bdf9dcd123cc62159d72f4dddc62155b34fc34b",
+        "size_in_bytes": 3751
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/common.py",
+        "path_type": "hardlink",
+        "sha256": "ef12e260e2fdac363d1e22c2701f81d32ce79b78fd7f7050f682728674d31461",
+        "sha256_in_prefix": "ef12e260e2fdac363d1e22c2701f81d32ce79b78fd7f7050f682728674d31461",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/concat_op.py",
+        "path_type": "hardlink",
+        "sha256": "364cd0e421c2752a9207e67dba9bf96269e0d1eefcd6e85fc133866927a92819",
+        "sha256_in_prefix": "364cd0e421c2752a9207e67dba9bf96269e0d1eefcd6e85fc133866927a92819",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/cross_decomposition.py",
+        "path_type": "hardlink",
+        "sha256": "413b3b115e66d4805c754e93a6d36f5d7c2118f546b1804fa231fa6ae83c652a",
+        "sha256_in_prefix": "413b3b115e66d4805c754e93a6d36f5d7c2118f546b1804fa231fa6ae83c652a",
+        "size_in_bytes": 1733
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/decision_tree.py",
+        "path_type": "hardlink",
+        "sha256": "2f8916720c0943ce2d82782fe91491800d6d613cd82bbfe629091bf84d636223",
+        "sha256_in_prefix": "2f8916720c0943ce2d82782fe91491800d6d613cd82bbfe629091bf84d636223",
+        "size_in_bytes": 22852
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/decomposition.py",
+        "path_type": "hardlink",
+        "sha256": "72b9fc9863d228e9953ccc604bab4f11e6509746ec7964f7328fd6015ead327d",
+        "sha256_in_prefix": "72b9fc9863d228e9953ccc604bab4f11e6509746ec7964f7328fd6015ead327d",
+        "size_in_bytes": 4234
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/dict_vectoriser.py",
+        "path_type": "hardlink",
+        "sha256": "323d48359a3fffaf4cf07866264faaa2c4b999a65d994055f73e1d7f81b3b76f",
+        "sha256_in_prefix": "323d48359a3fffaf4cf07866264faaa2c4b999a65d994055f73e1d7f81b3b76f",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/feature_hasher.py",
+        "path_type": "hardlink",
+        "sha256": "e87c12aabc391ae336bafb6802d6138ce69b583232e09fcfc2b4f90c4a49ebcd",
+        "sha256_in_prefix": "e87c12aabc391ae336bafb6802d6138ce69b583232e09fcfc2b4f90c4a49ebcd",
+        "size_in_bytes": 9853
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/feature_selection.py",
+        "path_type": "hardlink",
+        "sha256": "049d8d5ce4c9283fbb35ba9f5188c523412ad34e5b9ad51590bd2aef44fccab9",
+        "sha256_in_prefix": "049d8d5ce4c9283fbb35ba9f5188c523412ad34e5b9ad51590bd2aef44fccab9",
+        "size_in_bytes": 2185
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/flatten_op.py",
+        "path_type": "hardlink",
+        "sha256": "8c0798dfa56a4ff7c262d25e02e987202cdf82d247448e0e93b712aa0f2e7df5",
+        "sha256_in_prefix": "8c0798dfa56a4ff7c262d25e02e987202cdf82d247448e0e93b712aa0f2e7df5",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/function_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "7a333b0864f2630ef6ff966eb3e0575736326e4244cf8023ec4054e308acbfd6",
+        "sha256_in_prefix": "7a333b0864f2630ef6ff966eb3e0575736326e4244cf8023ec4054e308acbfd6",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/gamma_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "d7c05701823e5bebe9cd54e22e302861074cc84c2b33002cd1cc7e251b81ac7e",
+        "sha256_in_prefix": "d7c05701823e5bebe9cd54e22e302861074cc84c2b33002cd1cc7e251b81ac7e",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/gaussian_mixture.py",
+        "path_type": "hardlink",
+        "sha256": "7170d94409e3ab5799a5bba195b13d5bafcccb8f3c0a200502ef6e8887efa8ff",
+        "sha256_in_prefix": "7170d94409e3ab5799a5bba195b13d5bafcccb8f3c0a200502ef6e8887efa8ff",
+        "size_in_bytes": 12221
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/gaussian_process.py",
+        "path_type": "hardlink",
+        "sha256": "7c519004a41f46dec029951718bb759dfe82615d1f0c8e8aac8a857a0d29451b",
+        "sha256_in_prefix": "7c519004a41f46dec029951718bb759dfe82615d1f0c8e8aac8a857a0d29451b",
+        "size_in_bytes": 14186
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/gradient_boosting.py",
+        "path_type": "hardlink",
+        "sha256": "7c84a9de7ef02b2946655cce41a3a9f1eb80d9ef18f669fe4d033727dda649f2",
+        "sha256_in_prefix": "7c84a9de7ef02b2946655cce41a3a9f1eb80d9ef18f669fe4d033727dda649f2",
+        "size_in_bytes": 7823
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/grid_search_cv.py",
+        "path_type": "hardlink",
+        "sha256": "b0cd3036d7838ca9be3f74f6a36ef63e3f4187a85f8e9127256293340fbd8686",
+        "sha256_in_prefix": "b0cd3036d7838ca9be3f74f6a36ef63e3f4187a85f8e9127256293340fbd8686",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/id_op.py",
+        "path_type": "hardlink",
+        "sha256": "d6f84bc128cf27f33f0a638ec199a6f7247a18ea14ae70056a5dfbcb676dcda4",
+        "sha256_in_prefix": "d6f84bc128cf27f33f0a638ec199a6f7247a18ea14ae70056a5dfbcb676dcda4",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/imputer_op.py",
+        "path_type": "hardlink",
+        "sha256": "fb397ba965f480ba53bf15a00dd27ea576d4edf76f2153564cd884267600e969",
+        "sha256_in_prefix": "fb397ba965f480ba53bf15a00dd27ea576d4edf76f2153564cd884267600e969",
+        "size_in_bytes": 5337
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/isolation_forest.py",
+        "path_type": "hardlink",
+        "sha256": "39460190f98571e0b1baaeab01adf7165882aeb79dc6b924c36f359bdaa45378",
+        "sha256_in_prefix": "39460190f98571e0b1baaeab01adf7165882aeb79dc6b924c36f359bdaa45378",
+        "size_in_bytes": 10478
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/k_bins_discretiser.py",
+        "path_type": "hardlink",
+        "sha256": "8746cc89cb1feaaba2d2370074f715b2ef6dd68bdc52ea3bc4db746524f4c75c",
+        "sha256_in_prefix": "8746cc89cb1feaaba2d2370074f715b2ef6dd68bdc52ea3bc4db746524f4c75c",
+        "size_in_bytes": 5447
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/k_means.py",
+        "path_type": "hardlink",
+        "sha256": "5e1d9155849d08683149d0dc3ef0a574d5b60d3b2daa2084c479926aee2ef781",
+        "sha256_in_prefix": "5e1d9155849d08683149d0dc3ef0a574d5b60d3b2daa2084c479926aee2ef781",
+        "size_in_bytes": 4359
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/kernel_pca.py",
+        "path_type": "hardlink",
+        "sha256": "6fe27aa31c0b8fcd68490a9028d297a374779a109ba2e82c2904740359465c9f",
+        "sha256_in_prefix": "6fe27aa31c0b8fcd68490a9028d297a374779a109ba2e82c2904740359465c9f",
+        "size_in_bytes": 6444
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/label_binariser.py",
+        "path_type": "hardlink",
+        "sha256": "4151b5438c25628e920fd5a7d5d4f689b0ed64f20ffab4871f4d20887145f51c",
+        "sha256_in_prefix": "4151b5438c25628e920fd5a7d5d4f689b0ed64f20ffab4871f4d20887145f51c",
+        "size_in_bytes": 4851
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/label_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "1791e8c50749ae99f5024f7d732d14ac709f41b966280e9a2f434c693bdc9a86",
+        "sha256_in_prefix": "1791e8c50749ae99f5024f7d732d14ac709f41b966280e9a2f434c693bdc9a86",
+        "size_in_bytes": 1401
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/linear_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "bdbb8cdd78416252e8051a83ee4efa73d054cb67da39fd0b9a7fe236e4392809",
+        "sha256_in_prefix": "bdbb8cdd78416252e8051a83ee4efa73d054cb67da39fd0b9a7fe236e4392809",
+        "size_in_bytes": 11656
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/linear_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "d2f654cf9773a13b20e7d4472ea69d0895e5069750125bde8ec0b619ecd7b6e4",
+        "sha256_in_prefix": "d2f654cf9773a13b20e7d4472ea69d0895e5069750125bde8ec0b619ecd7b6e4",
+        "size_in_bytes": 9436
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/local_outlier_factor.py",
+        "path_type": "hardlink",
+        "sha256": "6abfffb07a34a2449d701a846ec75d8f9f310d3a9b33c8108206d7f2cf36c40a",
+        "sha256_in_prefix": "6abfffb07a34a2449d701a846ec75d8f9f310d3a9b33c8108206d7f2cf36c40a",
+        "size_in_bytes": 5063
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/multilayer_perceptron.py",
+        "path_type": "hardlink",
+        "sha256": "3d84b16fbcd2dd7d177f22e05e081425b004c5e26f550b9df65f492436941573",
+        "sha256_in_prefix": "3d84b16fbcd2dd7d177f22e05e081425b004c5e26f550b9df65f492436941573",
+        "size_in_bytes": 8690
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/multioutput.py",
+        "path_type": "hardlink",
+        "sha256": "5b6dc26e093058f256dde9a9a2563bb7f08f0fe3c5998d678b777e6927a41678",
+        "sha256_in_prefix": "5b6dc26e093058f256dde9a9a2563bb7f08f0fe3c5998d678b777e6927a41678",
+        "size_in_bytes": 2957
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/multiply_op.py",
+        "path_type": "hardlink",
+        "sha256": "10cd4ce0152f71f61ed96c5a970eae03c76efddd9a9c16b57897a67cb133c445",
+        "sha256_in_prefix": "10cd4ce0152f71f61ed96c5a970eae03c76efddd9a9c16b57897a67cb133c445",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/naive_bayes.py",
+        "path_type": "hardlink",
+        "sha256": "6e5b9c166d3beb47d93592ea83c885359c32cf3c214ba80c2dbe79c09e590f36",
+        "sha256_in_prefix": "6e5b9c166d3beb47d93592ea83c885359c32cf3c214ba80c2dbe79c09e590f36",
+        "size_in_bytes": 27023
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/nearest_neighbours.py",
+        "path_type": "hardlink",
+        "sha256": "56dc63152f0cf4124501ceb8436183b40edb4ea7f5cf30c397bc94f1fa6c48a6",
+        "sha256_in_prefix": "56dc63152f0cf4124501ceb8436183b40edb4ea7f5cf30c397bc94f1fa6c48a6",
+        "size_in_bytes": 32960
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/normaliser.py",
+        "path_type": "hardlink",
+        "sha256": "07626719565c3de6d195d4b09f0e9cd6220ee51eeb56afaefe73226a81691263",
+        "sha256_in_prefix": "07626719565c3de6d195d4b09f0e9cd6220ee51eeb56afaefe73226a81691263",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/one_hot_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "fb4885130deec055ad00d55b721f609911c993b85c0586f41b405696954d1e76",
+        "sha256_in_prefix": "fb4885130deec055ad00d55b721f609911c993b85c0586f41b405696954d1e76",
+        "size_in_bytes": 7781
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/one_vs_one_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "ca605eba02798c563ed822532b69030f8dfc7c684e9421a3707f72f6f9eca9a7",
+        "sha256_in_prefix": "ca605eba02798c563ed822532b69030f8dfc7c684e9421a3707f72f6f9eca9a7",
+        "size_in_bytes": 6850
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/one_vs_rest_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "595e875dbbec810e3cb2601739865f1ed19844faea9fdd6e1c3c194692dcd8f3",
+        "sha256_in_prefix": "595e875dbbec810e3cb2601739865f1ed19844faea9fdd6e1c3c194692dcd8f3",
+        "size_in_bytes": 10611
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/ordinal_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "d1df083f75c951c8e153e823316a4d013fdd42c49016cc8766c45c1098fa5a27",
+        "sha256_in_prefix": "d1df083f75c951c8e153e823316a4d013fdd42c49016cc8766c45c1098fa5a27",
+        "size_in_bytes": 4515
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/ovr_decision_function.py",
+        "path_type": "hardlink",
+        "sha256": "9dce3932b0aa1c37b3a4597032d832cc9fa90f77b290b0f6437a75deece3a983",
+        "sha256_in_prefix": "9dce3932b0aa1c37b3a4597032d832cc9fa90f77b290b0f6437a75deece3a983",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/pipelines.py",
+        "path_type": "hardlink",
+        "sha256": "d006837670cfc99603560ee457d1d01b1cc25002a065cfd42e5130383c1c68f8",
+        "sha256_in_prefix": "d006837670cfc99603560ee457d1d01b1cc25002a065cfd42e5130383c1c68f8",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/polynomial_features.py",
+        "path_type": "hardlink",
+        "sha256": "82ec5240535c25041c31d9605fbf018fd8c56ef2b3c800ed7b66f08ef945c387",
+        "sha256_in_prefix": "82ec5240535c25041c31d9605fbf018fd8c56ef2b3c800ed7b66f08ef945c387",
+        "size_in_bytes": 4578
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/power_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "ec32859b7002dd53d8b61018f58ffc501dc7469c8101c610442751088eccab6b",
+        "sha256_in_prefix": "ec32859b7002dd53d8b61018f58ffc501dc7469c8101c610442751088eccab6b",
+        "size_in_bytes": 6321
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/quadratic_discriminant_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "d09e1a207563cf8387fc4bbb316be8022382b1703be7fdf593bcf069e5cb10d9",
+        "sha256_in_prefix": "d09e1a207563cf8387fc4bbb316be8022382b1703be7fdf593bcf069e5cb10d9",
+        "size_in_bytes": 6853
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/random_forest.py",
+        "path_type": "hardlink",
+        "sha256": "2eeb05d812ae8643a3e65f1504eafe61b60ee6e8a09be02b50cd64d16fa379f5",
+        "sha256_in_prefix": "2eeb05d812ae8643a3e65f1504eafe61b60ee6e8a09be02b50cd64d16fa379f5",
+        "size_in_bytes": 24642
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/random_projection.py",
+        "path_type": "hardlink",
+        "sha256": "236a9ff11d724bd1b3431a539561093ce4f2e27960d719c4a0e688323c9c33d4",
+        "sha256_in_prefix": "236a9ff11d724bd1b3431a539561093ce4f2e27960d719c4a0e688323c9c33d4",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/random_trees_embedding.py",
+        "path_type": "hardlink",
+        "sha256": "bf18e4d1f1d2bbd11c1b2133782b9a5eb02851579fc062229526b49d1e3dfa52",
+        "sha256_in_prefix": "bf18e4d1f1d2bbd11c1b2133782b9a5eb02851579fc062229526b49d1e3dfa52",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/ransac_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "9584a942effc21abda49c5a8029918afdb4bf92848d50fb278be8aec4e6025e0",
+        "sha256_in_prefix": "9584a942effc21abda49c5a8029918afdb4bf92848d50fb278be8aec4e6025e0",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/replace_op.py",
+        "path_type": "hardlink",
+        "sha256": "09d5e31f8d7f945185b83725aa81d07d90dbf39f090d9cf14cc7043f7647751e",
+        "sha256_in_prefix": "09d5e31f8d7f945185b83725aa81d07d90dbf39f090d9cf14cc7043f7647751e",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/scaler_op.py",
+        "path_type": "hardlink",
+        "sha256": "50183d9e0230462d322f4e0864e4daf606de7d7d2080d9e5c3602710f42802d6",
+        "sha256_in_prefix": "50183d9e0230462d322f4e0864e4daf606de7d7d2080d9e5c3602710f42802d6",
+        "size_in_bytes": 9863
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "ac822e8957809699c683882982f00309ecfa9334ce6441c63829986acb43abda",
+        "sha256_in_prefix": "ac822e8957809699c683882982f00309ecfa9334ce6441c63829986acb43abda",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/sgd_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "f6221556ba931a91fdb91884bf9d19ed0b49175ac07fed37422146ded8bd017a",
+        "sha256_in_prefix": "f6221556ba931a91fdb91884bf9d19ed0b49175ac07fed37422146ded8bd017a",
+        "size_in_bytes": 13891
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/sgd_oneclass_svm.py",
+        "path_type": "hardlink",
+        "sha256": "909e2fd4732f1fdfd480ca989c5ba6a4476847e086fd01298249484f6f9b64c5",
+        "sha256_in_prefix": "909e2fd4732f1fdfd480ca989c5ba6a4476847e086fd01298249484f6f9b64c5",
+        "size_in_bytes": 2158
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/stacking.py",
+        "path_type": "hardlink",
+        "sha256": "2cd451398770f288d74653882a200a2a527ff93dea1263d46e019e6aba5c0a99",
+        "sha256_in_prefix": "2cd451398770f288d74653882a200a2a527ff93dea1263d46e019e6aba5c0a99",
+        "size_in_bytes": 8255
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/support_vector_machines.py",
+        "path_type": "hardlink",
+        "sha256": "6db3e677062ca2c9096b9b94d64d5e1128703685377b4feec075ae52af1de108",
+        "sha256_in_prefix": "6db3e677062ca2c9096b9b94d64d5e1128703685377b4feec075ae52af1de108",
+        "size_in_bytes": 13876
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/text_vectoriser.py",
+        "path_type": "hardlink",
+        "sha256": "a95379190d37bd2d7f54eb7dc4e3e9e0aeff6a3f80f4d9efed25b08a9ab4257c",
+        "sha256_in_prefix": "a95379190d37bd2d7f54eb7dc4e3e9e0aeff6a3f80f4d9efed25b08a9ab4257c",
+        "size_in_bytes": 20707
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/tfidf_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "08cc69581f8b3ed1aaab81f31979e0869735cc87edc0cc464b9d3b057edea402",
+        "sha256_in_prefix": "08cc69581f8b3ed1aaab81f31979e0869735cc87edc0cc464b9d3b057edea402",
+        "size_in_bytes": 4262
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/tfidf_vectoriser.py",
+        "path_type": "hardlink",
+        "sha256": "e36f71e07157500ac4b5839e385aa3f5a2cf4b7b59dbdaa9564c9a183619971c",
+        "sha256_in_prefix": "e36f71e07157500ac4b5839e385aa3f5a2cf4b7b59dbdaa9564c9a183619971c",
+        "size_in_bytes": 2320
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/voting_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "002a1bb96cef296e305c83428a343dbb9f8643d95c9f1645a985bee616262ba2",
+        "sha256_in_prefix": "002a1bb96cef296e305c83428a343dbb9f8643d95c9f1645a985bee616262ba2",
+        "size_in_bytes": 6344
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/voting_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "4608453045c32e9161b45f9d638f57be08101ac8efc6be54717a30f718bd4186",
+        "sha256_in_prefix": "4608453045c32e9161b45f9d638f57be08101ac8efc6be54717a30f718bd4186",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "site-packages/skl2onnx/operator_converters/zip_map.py",
+        "path_type": "hardlink",
+        "sha256": "389be47612f36e4eb0ae7d384eb911cd0f65cc0ac768704a731b853b4aeaf800",
+        "sha256_in_prefix": "389be47612f36e4eb0ae7d384eb911cd0f65cc0ac768704a731b853b4aeaf800",
+        "size_in_bytes": 3387
+      },
+      {
+        "_path": "site-packages/skl2onnx/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63a52d41549ddcefde0696735d66eb469bb1e0354ea8e191afaa517c4ff657fb",
+        "sha256_in_prefix": "63a52d41549ddcefde0696735d66eb469bb1e0354ea8e191afaa517c4ff657fb",
+        "size_in_bytes": 2221
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0c16145f3fdeca3296b905723934bfb069639bfbc301b80277f9779ba4cf49ce",
+        "sha256_in_prefix": "0c16145f3fdeca3296b905723934bfb069639bfbc301b80277f9779ba4cf49ce",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/array_feature_extractor.py",
+        "path_type": "hardlink",
+        "sha256": "6bfc4ab9abef8f224364b79391e5e6f76b6d954ec8b5cd7569eecb402ec9459a",
+        "sha256_in_prefix": "6bfc4ab9abef8f224364b79391e5e6f76b6d954ec8b5cd7569eecb402ec9459a",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/cast_op.py",
+        "path_type": "hardlink",
+        "sha256": "4b5c71e637abbefa17205355a1da80e5c66f8cb14e078fc433c8a2f706cbd0ff",
+        "sha256_in_prefix": "4b5c71e637abbefa17205355a1da80e5c66f8cb14e078fc433c8a2f706cbd0ff",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/class_labels.py",
+        "path_type": "hardlink",
+        "sha256": "216e2b00f328870a36949d3bb56f9450cafa5868fe3a4ee5bd05a4ac7efa78fd",
+        "sha256_in_prefix": "216e2b00f328870a36949d3bb56f9450cafa5868fe3a4ee5bd05a4ac7efa78fd",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/concat.py",
+        "path_type": "hardlink",
+        "sha256": "2b1b525a59df286c8e5f7b7e5d00fcc08aac3920583bed04f896dc13a7ab77df",
+        "sha256_in_prefix": "2b1b525a59df286c8e5f7b7e5d00fcc08aac3920583bed04f896dc13a7ab77df",
+        "size_in_bytes": 3970
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/cross_decomposition.py",
+        "path_type": "hardlink",
+        "sha256": "3ec776a09bda3955a6cb195d951cb253c89171472155959b6d62d32eb943df7b",
+        "sha256_in_prefix": "3ec776a09bda3955a6cb195d951cb253c89171472155959b6d62d32eb943df7b",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/dict_vectorizer.py",
+        "path_type": "hardlink",
+        "sha256": "ce9e063da48ed2e62bc72197c123e49b65595316d7704f190df80810fa950b29",
+        "sha256_in_prefix": "ce9e063da48ed2e62bc72197c123e49b65595316d7704f190df80810fa950b29",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/ensemble_shapes.py",
+        "path_type": "hardlink",
+        "sha256": "8b40bf5f9871b2cff948385670ad19dd677b32eabcb82d25eda1d7b90eaaf614",
+        "sha256_in_prefix": "8b40bf5f9871b2cff948385670ad19dd677b32eabcb82d25eda1d7b90eaaf614",
+        "size_in_bytes": 3717
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/feature_hasher.py",
+        "path_type": "hardlink",
+        "sha256": "201b40442eeebfa2807d34ffb6ac1ecb1ac066c7f6f71233cf9ac3f33bb13c7c",
+        "sha256_in_prefix": "201b40442eeebfa2807d34ffb6ac1ecb1ac066c7f6f71233cf9ac3f33bb13c7c",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/flatten.py",
+        "path_type": "hardlink",
+        "sha256": "6ad4334dbbf7d189c7335a36109130bb61c1b0b888c7dad60691e65813e019a6",
+        "sha256_in_prefix": "6ad4334dbbf7d189c7335a36109130bb61c1b0b888c7dad60691e65813e019a6",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/function_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "40bf424ee5dd69f9a45a5be6fed2c0bab599615d90a629952ec83393f86c669a",
+        "sha256_in_prefix": "40bf424ee5dd69f9a45a5be6fed2c0bab599615d90a629952ec83393f86c669a",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/gaussian_process.py",
+        "path_type": "hardlink",
+        "sha256": "c97226e57634b53ced3c8b6c0f1a499e95875e167cb8067ac92e67cfb6c6e6be",
+        "sha256_in_prefix": "c97226e57634b53ced3c8b6c0f1a499e95875e167cb8067ac92e67cfb6c6e6be",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/grid_search_cv.py",
+        "path_type": "hardlink",
+        "sha256": "00e0d7f91a74c2a77056b7f4e06956114d67f00e101ad317ca0b1429ff24a42c",
+        "sha256_in_prefix": "00e0d7f91a74c2a77056b7f4e06956114d67f00e101ad317ca0b1429ff24a42c",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/identity.py",
+        "path_type": "hardlink",
+        "sha256": "f402ea60e21856e87fae1b25fb863586626861d03d3f9e65c4798012483f34c2",
+        "sha256_in_prefix": "f402ea60e21856e87fae1b25fb863586626861d03d3f9e65c4798012483f34c2",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/imputer.py",
+        "path_type": "hardlink",
+        "sha256": "e0f4db82d8acdf6728befe5e012dc2d6499b89f4e5baccebed0a4938e3b5f4c6",
+        "sha256_in_prefix": "e0f4db82d8acdf6728befe5e012dc2d6499b89f4e5baccebed0a4938e3b5f4c6",
+        "size_in_bytes": 1909
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/isolation_forest.py",
+        "path_type": "hardlink",
+        "sha256": "0066cd11dd597e7fddb3a697ba34abcb843cf546366b420301852f9dcdaf3e62",
+        "sha256_in_prefix": "0066cd11dd597e7fddb3a697ba34abcb843cf546366b420301852f9dcdaf3e62",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/k_bins_discretiser.py",
+        "path_type": "hardlink",
+        "sha256": "7e16f9a1449e0f97ef903a9b88f98b19b432d748c9a701d914b0307507aa5125",
+        "sha256_in_prefix": "7e16f9a1449e0f97ef903a9b88f98b19b432d748c9a701d914b0307507aa5125",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/k_means.py",
+        "path_type": "hardlink",
+        "sha256": "1220ed4033949f5a09a545e51260d3880483a96992613ffe0a7d72b1551258af",
+        "sha256_in_prefix": "1220ed4033949f5a09a545e51260d3880483a96992613ffe0a7d72b1551258af",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/kernel_pca.py",
+        "path_type": "hardlink",
+        "sha256": "b7a1dfda83b15630708290864ddb0cfd2041d41c1f0d0e51c5f61f1d700f85cc",
+        "sha256_in_prefix": "b7a1dfda83b15630708290864ddb0cfd2041d41c1f0d0e51c5f61f1d700f85cc",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/label_binariser.py",
+        "path_type": "hardlink",
+        "sha256": "c340fbe1732940a1a3a1ef62edfb083ebcc9ae32c9f95d543b3fd50750b1c71b",
+        "sha256_in_prefix": "c340fbe1732940a1a3a1ef62edfb083ebcc9ae32c9f95d543b3fd50750b1c71b",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/label_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "8b0459d62365f175503657e3123d8afdc9b9d2d62b424026e42d71df505ccd94",
+        "sha256_in_prefix": "8b0459d62365f175503657e3123d8afdc9b9d2d62b424026e42d71df505ccd94",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/linear_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "b79f113d2e06e102bffcfe49961f5d5affe8a1c06f9cbecdcd1032cbf40bda0e",
+        "sha256_in_prefix": "b79f113d2e06e102bffcfe49961f5d5affe8a1c06f9cbecdcd1032cbf40bda0e",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/linear_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "53e56d18770bbe79cc6757581537c0bb0fc2a520680c8cc82d3d834f3168101e",
+        "sha256_in_prefix": "53e56d18770bbe79cc6757581537c0bb0fc2a520680c8cc82d3d834f3168101e",
+        "size_in_bytes": 2795
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/local_outlier_factor.py",
+        "path_type": "hardlink",
+        "sha256": "75464b9d2303f0bea7ddac59a64c9448b5ec059c24f27470be441cfa71bfa792",
+        "sha256_in_prefix": "75464b9d2303f0bea7ddac59a64c9448b5ec059c24f27470be441cfa71bfa792",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/mixture.py",
+        "path_type": "hardlink",
+        "sha256": "1fd71052458ca01127961d0891502aaf950143a500e15a7ca9b57f9daadf6f16",
+        "sha256_in_prefix": "1fd71052458ca01127961d0891502aaf950143a500e15a7ca9b57f9daadf6f16",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/multioutput.py",
+        "path_type": "hardlink",
+        "sha256": "8ec3d08e2277e7d66afe48e6ffc603290a8ed0c1dc904af67cfb19c2c613c0ac",
+        "sha256_in_prefix": "8ec3d08e2277e7d66afe48e6ffc603290a8ed0c1dc904af67cfb19c2c613c0ac",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/multiply.py",
+        "path_type": "hardlink",
+        "sha256": "f8150e762023747f32cb92d865a3ee3800b5c4b4fe0083be81610f6e9bb7f3f8",
+        "sha256_in_prefix": "f8150e762023747f32cb92d865a3ee3800b5c4b4fe0083be81610f6e9bb7f3f8",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/nearest_neighbours.py",
+        "path_type": "hardlink",
+        "sha256": "a3f763818b61b10752aac67001feabdc0fb238936e89fafe324923c9110883cd",
+        "sha256_in_prefix": "a3f763818b61b10752aac67001feabdc0fb238936e89fafe324923c9110883cd",
+        "size_in_bytes": 3949
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/one_hot_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "6c5fbb350260002e9f91195caca1b0d51e8de07ced6365adb51a0b4ea12332d8",
+        "sha256_in_prefix": "6c5fbb350260002e9f91195caca1b0d51e8de07ced6365adb51a0b4ea12332d8",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/one_vs_one_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "2e86820e98f31b787466a018b9a477be00bd9449242ff03f7b50fe2eb9ca04bd",
+        "sha256_in_prefix": "2e86820e98f31b787466a018b9a477be00bd9449242ff03f7b50fe2eb9ca04bd",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/one_vs_rest_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "3a49450e5fa870bb85069af9996969e4a1a26493cf2d50380e9fdcb70077e1d7",
+        "sha256_in_prefix": "3a49450e5fa870bb85069af9996969e4a1a26493cf2d50380e9fdcb70077e1d7",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/ordinal_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "31e93cb69fccedf3dfbdc993c820b8b56d63eb6851f7fc5ea48dc3fd0aa0437a",
+        "sha256_in_prefix": "31e93cb69fccedf3dfbdc993c820b8b56d63eb6851f7fc5ea48dc3fd0aa0437a",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/ovr_decision_function.py",
+        "path_type": "hardlink",
+        "sha256": "5c399d7f1e2d109f0b1465a1aee6a353b01881ce3e6e7247327a62803ebf3a5c",
+        "sha256_in_prefix": "5c399d7f1e2d109f0b1465a1aee6a353b01881ce3e6e7247327a62803ebf3a5c",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/pipelines.py",
+        "path_type": "hardlink",
+        "sha256": "b94157257445469b6a125c865cb06b9e84ac4313786d7c9af15e39b5f1426aa4",
+        "sha256_in_prefix": "b94157257445469b6a125c865cb06b9e84ac4313786d7c9af15e39b5f1426aa4",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/polynomial_features.py",
+        "path_type": "hardlink",
+        "sha256": "058722a623522f3d31308d4c15ebdffd2ec191c0551ca9c3210eca956aebd585",
+        "sha256_in_prefix": "058722a623522f3d31308d4c15ebdffd2ec191c0551ca9c3210eca956aebd585",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/power_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "d0bf559c64574d41de11829557d8072e4315b76cdf4858742a3cc12fa7a04efc",
+        "sha256_in_prefix": "d0bf559c64574d41de11829557d8072e4315b76cdf4858742a3cc12fa7a04efc",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/quadratic_discriminant_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "a36ec5f19a466b2bcd24a5193e131e2a5021a6bfb1d02912ed85f082e41fe6e8",
+        "sha256_in_prefix": "a36ec5f19a466b2bcd24a5193e131e2a5021a6bfb1d02912ed85f082e41fe6e8",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/random_projection.py",
+        "path_type": "hardlink",
+        "sha256": "c3c0a85f2f1b061a98d2e754683a66cb88d33ca6d02f54342c93f759f5e22dc3",
+        "sha256_in_prefix": "c3c0a85f2f1b061a98d2e754683a66cb88d33ca6d02f54342c93f759f5e22dc3",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/random_trees_embedding.py",
+        "path_type": "hardlink",
+        "sha256": "62cd993abb54b7215584481de28d68815222d1b8fd38fb359872b4b4ee5bafff",
+        "sha256_in_prefix": "62cd993abb54b7215584481de28d68815222d1b8fd38fb359872b4b4ee5bafff",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/replace_op.py",
+        "path_type": "hardlink",
+        "sha256": "4026e30d96fce0effcfc84187fe368d552e3d3193e3ab71a800906f47eab0e42",
+        "sha256_in_prefix": "4026e30d96fce0effcfc84187fe368d552e3d3193e3ab71a800906f47eab0e42",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/scaler.py",
+        "path_type": "hardlink",
+        "sha256": "43db96adc65c6c5973f8175e532a1c64098fc954f855b64496787ddb92b87810",
+        "sha256_in_prefix": "43db96adc65c6c5973f8175e532a1c64098fc954f855b64496787ddb92b87810",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "327a5e61cf2245d8bd96e05a7c751edb14ef3d1ce1c65cc8a753cf3abed12097",
+        "sha256_in_prefix": "327a5e61cf2245d8bd96e05a7c751edb14ef3d1ce1c65cc8a753cf3abed12097",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/sgd_oneclass_svm.py",
+        "path_type": "hardlink",
+        "sha256": "4a3864a10352f73267edd5d101a0c2b4d91602539e5bbf974f7a8d7c559ecff6",
+        "sha256_in_prefix": "4a3864a10352f73267edd5d101a0c2b4d91602539e5bbf974f7a8d7c559ecff6",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/support_vector_machines.py",
+        "path_type": "hardlink",
+        "sha256": "29b567226d0363f166ee290034f05c82487f5de9f4c6af8f9336f0ad72c77981",
+        "sha256_in_prefix": "29b567226d0363f166ee290034f05c82487f5de9f4c6af8f9336f0ad72c77981",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/svd.py",
+        "path_type": "hardlink",
+        "sha256": "a0f26f5bd87da5a35608b5da9d8ad9d17eda75da6f0b158d89eb76a1425c9686",
+        "sha256_in_prefix": "a0f26f5bd87da5a35608b5da9d8ad9d17eda75da6f0b158d89eb76a1425c9686",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/text_vectorizer.py",
+        "path_type": "hardlink",
+        "sha256": "512f3e28dbbccca06d9b2b1d7bd5ee37275dd754637d91e0dc42b18a7496e698",
+        "sha256_in_prefix": "512f3e28dbbccca06d9b2b1d7bd5ee37275dd754637d91e0dc42b18a7496e698",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/tfidf_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "ae4adec7bb21d860f063c0611ee82f2920ab7ba6580f94b3fba80d33d6438e58",
+        "sha256_in_prefix": "ae4adec7bb21d860f063c0611ee82f2920ab7ba6580f94b3fba80d33d6438e58",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/voting_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "d16483f508b064663943b9f17b39b873c84cb891d4e3272bb4d358c2f1e4e2c2",
+        "sha256_in_prefix": "d16483f508b064663943b9f17b39b873c84cb891d4e3272bb4d358c2f1e4e2c2",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/voting_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "6ad3cb7877b82fde0b9f43d4ab32de92578942bc8c9b02f8f0eb7eec199579ff",
+        "sha256_in_prefix": "6ad3cb7877b82fde0b9f43d4ab32de92578942bc8c9b02f8f0eb7eec199579ff",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "site-packages/skl2onnx/shape_calculators/zip_map.py",
+        "path_type": "hardlink",
+        "sha256": "d103eba93a39fd567fcea376f9e83770ffe5c566f2c31dead87c335c4ba1d42e",
+        "sha256_in_prefix": "d103eba93a39fd567fcea376f9e83770ffe5c566f2c31dead87c335c4ba1d42e",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e96b2ea08f8bb01ea4da6dc9997d08d6d88a45975385e6243a9a1ea1779ad208",
+        "sha256_in_prefix": "e96b2ea08f8bb01ea4da6dc9997d08d6d88a45975385e6243a9a1ea1779ad208",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/cast_regressor.py",
+        "path_type": "hardlink",
+        "sha256": "a823865310be9aa98f179ed981e16da7fec430b4bda79175acce25445fd65684",
+        "sha256_in_prefix": "a823865310be9aa98f179ed981e16da7fec430b4bda79175acce25445fd65684",
+        "size_in_bytes": 1991
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/cast_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "7eef8e488a1a984821e5b7b88b88109a55b6af2de733f8b3d468cacfc3ec56cd",
+        "sha256_in_prefix": "7eef8e488a1a984821e5b7b88b88109a55b6af2de733f8b3d468cacfc3ec56cd",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/register.py",
+        "path_type": "hardlink",
+        "sha256": "c418f706f61a63a5132b0738aa9a109c17015a29195e0eb8b232f6b154b430d5",
+        "sha256_in_prefix": "c418f706f61a63a5132b0738aa9a109c17015a29195e0eb8b232f6b154b430d5",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/replace_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "1273c1c4743807c08eaef97667f71f9084f3c9544828b4c79a7c3ebec0bce7fb",
+        "sha256_in_prefix": "1273c1c4743807c08eaef97667f71f9084f3c9544828b4c79a7c3ebec0bce7fb",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/sklearn_text.py",
+        "path_type": "hardlink",
+        "sha256": "0d31d5a5277cb0062947fa041fb7912d6a8d519cb95206c692d9e2eb0c248704",
+        "sha256_in_prefix": "0d31d5a5277cb0062947fa041fb7912d6a8d519cb95206c692d9e2eb0c248704",
+        "size_in_bytes": 9608
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/sklearn_text_onnx.py",
+        "path_type": "hardlink",
+        "sha256": "2ad7f382511e697ff6aa8a54101bec60d1572219b66c7fe2e77f25a3171a1e67",
+        "sha256_in_prefix": "2ad7f382511e697ff6aa8a54101bec60d1572219b66c7fe2e77f25a3171a1e67",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/woe_transformer.py",
+        "path_type": "hardlink",
+        "sha256": "0a5ed66f21d6f028e0f30017a26592bf2e78efe6f62774968b3c894ca786f64d",
+        "sha256_in_prefix": "0a5ed66f21d6f028e0f30017a26592bf2e78efe6f62774968b3c894ca786f64d",
+        "size_in_bytes": 8346
+      },
+      {
+        "_path": "site-packages/skl2onnx/sklapi/woe_transformer_onnx.py",
+        "path_type": "hardlink",
+        "sha256": "a8e2da9c95c6f45ffd1d4304bd1fc76f735df8d837d1a3377ff54352055f70ae",
+        "sha256_in_prefix": "a8e2da9c95c6f45ffd1d4304bd1fc76f735df8d837d1a3377ff54352055f70ae",
+        "size_in_bytes": 23029
+      },
+      {
+        "_path": "site-packages/skl2onnx/tutorial/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19051a28a1f20fe71e04774b1959763d927b4cc4ff59121d8f3e87976707bf4c",
+        "sha256_in_prefix": "19051a28a1f20fe71e04774b1959763d927b4cc4ff59121d8f3e87976707bf4c",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/skl2onnx/tutorial/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "2e0fda652fcfb41ac8076088b3d86b0eff38e8a586984a4208087c72bda67b01",
+        "sha256_in_prefix": "2e0fda652fcfb41ac8076088b3d86b0eff38e8a586984a4208087c72bda67b01",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/skl2onnx/tutorial/imagenet_classes.py",
+        "path_type": "hardlink",
+        "sha256": "3b0ddfa3d9dd31a1ae68b53eff3c191272d6f980b3822d470c7c0b49e067b82b",
+        "sha256_in_prefix": "3b0ddfa3d9dd31a1ae68b53eff3c191272d6f980b3822d470c7c0b49e067b82b",
+        "size_in_bytes": 34855
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/__pycache__/_parse.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/__pycache__/_supported_operators.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/_cache/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/automation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/complex_functions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/custom_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/graph_state.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_operator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_operator_mixin.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/onnx_subgraph_operator_mixin.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/sklearn_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/algebra/__pycache__/type_helper.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_apply_operation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_container.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_onnx_optimisation_common.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_registration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/_topology.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/data_types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/onnx_optimisation_identity.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/shape_calculator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/tree_ensemble.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_checking.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/common/__pycache__/utils_sklearn.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/__pycache__/convert.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/integration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/investigate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/onnx_helper.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/helpers/__pycache__/onnx_rare_helper.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/_gp_kernels.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ada_boost.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/array_feature_extractor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/bagging.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/binariser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/calibrated_classifier_cv.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/cast_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/class_labels.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/common.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/concat_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/cross_decomposition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/decision_tree.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/decomposition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/dict_vectoriser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/feature_hasher.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/feature_selection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/flatten_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/function_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gamma_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gaussian_mixture.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gaussian_process.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/gradient_boosting.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/grid_search_cv.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/id_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/imputer_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/isolation_forest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/k_bins_discretiser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/k_means.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/kernel_pca.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/label_binariser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/label_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/linear_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/linear_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/local_outlier_factor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multilayer_perceptron.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multioutput.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/multiply_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/naive_bayes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/nearest_neighbours.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/normaliser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_hot_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_vs_one_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/one_vs_rest_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ordinal_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ovr_decision_function.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/pipelines.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/polynomial_features.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/power_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/quadratic_discriminant_analysis.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_forest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_projection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/random_trees_embedding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/ransac_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/replace_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/scaler_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sequence.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sgd_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/sgd_oneclass_svm.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/stacking.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/support_vector_machines.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/text_vectoriser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/tfidf_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/tfidf_vectoriser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/voting_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/voting_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/operator_converters/__pycache__/zip_map.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/proto/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/array_feature_extractor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/cast_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/class_labels.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/concat.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/cross_decomposition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/dict_vectorizer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ensemble_shapes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/feature_hasher.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/flatten.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/function_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/gaussian_process.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/grid_search_cv.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/identity.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/imputer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/isolation_forest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/k_bins_discretiser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/k_means.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/kernel_pca.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/label_binariser.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/label_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/linear_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/linear_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/local_outlier_factor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/mixture.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/multioutput.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/multiply.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/nearest_neighbours.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_hot_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_vs_one_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/one_vs_rest_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ordinal_encoder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/ovr_decision_function.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/pipelines.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/polynomial_features.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/power_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/quadratic_discriminant_analysis.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/random_projection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/random_trees_embedding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/replace_op.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/scaler.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/sequence.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/sgd_oneclass_svm.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/support_vector_machines.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/svd.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/text_vectorizer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/tfidf_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/voting_classifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/voting_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/shape_calculators/__pycache__/zip_map.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/cast_regressor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/cast_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/register.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/replace_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/sklearn_text.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/sklearn_text_onnx.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/woe_transformer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/sklapi/__pycache__/woe_transformer_onnx.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/benchmark.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skl2onnx/tutorial/__pycache__/imagenet_classes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "skl2onnx",
+  "sha256": "d0b120a4eed4cc29f32d115f0f49dae9ff1665f004d6aba00654e91c1f8540d7",
+  "size": 190204,
+  "subdir": "noarch",
+  "timestamp": 1702407982000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/skl2onnx-1.16.0-pyhd8ed1ab_0.conda",
+  "version": "1.16.0"
+}

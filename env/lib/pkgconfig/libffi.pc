@@ -1,0 +1,11 @@
+prefix=/Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

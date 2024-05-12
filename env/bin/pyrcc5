@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/teejay/Documents/Udemy_Code/Machine_Learning_Projects/heart_disease_project/env/bin/python -m PyQt5.pyrcc_main ${1+"$@"}
